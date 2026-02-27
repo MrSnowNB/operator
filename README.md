@@ -1,5 +1,12 @@
 # The Operator: Project Evolution
 
+## Mission Statement: Variety = Resilience
+We believe that in emergency communications, **variety equals resilience**. When building a community mesh network, avoiding a single point of failure is paramount. By bridging multiple layers of communication—such as Meshtastic, GMRS, and Wi-Fi—and leveraging open-source hardware and software, we aim to create a robust, vendor-agnostic architecture. 
+
+We strongly encourage other makers to fork, adapt, and add their own twists to this project. In emergency communications, system lock-in is a liability; diversity in tools, approaches, and deployments is our greatest asset.
+
+---
+
 This project has evolved significantly from a simple AI classroom assistant into a robust, asynchronous emergency dispatch and AI switchboard system for Meshtastic networks. Here is the chronological history of the project based on its iterations.
 
 ## Phase 1: The Basic Listener

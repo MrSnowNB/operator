@@ -412,3 +412,72 @@ As the last miniature Pac-Man vanished, the blue ghost faded. "The cycle is weak
 **To Liberty-Node-02 :** Cancellation confirmed. Returning to baseline.
 ---
 
+**From Liberty-Node-02  (!0408a160):** Tell me a bedtime story
+
+**To Liberty-Node-02 :** The stars began to fade, and a gentle hush fell upon the sleeping world. Close your eyes and drift into peaceful rest.
+---
+
+**From Liberty-Node-02  (!0408a160):** !help
+
+## SOS EVENT
+**Trigger:** !help
+**From:** Liberty-Node-02  (!0408a160)
+**GPS: UNKNOWN**
+**Time:** 2026-02-26 22:18:19
+**Routed To:** ALL RESPONDERS
+---
+
+**From Liberty-Node-02  (!0408a160):** Safe
+
+**To Liberty-Node-02 :** Systems nominal. All parameters within acceptable limits.
+---
+
+**From Liberty-Node-02  (!0408a160):** !safe
+
+## SOS CANCELLED
+**Original Trigger:** !help
+**Cancelled By:** Liberty-Node-02  (!0408a160)
+**Time:** 2026-02-26 22:19:37
+**Responders Notified:** ALL RESPONDERS
+---
+
+**From Liberty-Node-02  (!0408a160):** !ping
+
+**From Liberty-Node-02  (!0408a160):** !ems I cut myself
+
+## SOS EVENT
+**Trigger:** !ems
+**From:** Liberty-Node-02  (!0408a160)
+**GPS: UNKNOWN**
+**Time:** 2026-02-26 22:22:57
+**Routed To:** !22334455
+---
+
+**To Liberty-Node-02 :** Are you currently experiencing any active bleeding?
+---
+
+**From Liberty-Node-02  (!0408a160):** Yes
+
+**To Liberty-Node-02 :** Assess the wound. Provide details: size, location, and your vital signs.
+---
+
+**From Liberty-Node-02  (!0408a160):** 3 " on Palm, heart racing
+
+**To Liberty-Node-02 :** Elevate the affected hand. Monitor vital signs closely.
+---
+
+**From Liberty-Node-02  (!0408a160):** My cat is stuck in a tree
+
+**To Liberty-Node-02 :** Assess the situation. Determine the cat’s condition and the tree’s stability.
+---
+
+**From Liberty-Node-02  (!0408a160):** The telephone poll outside my house is on fire.
+
+**To Liberty-Node-02 :** Report immediately. Ensure no one is injured or further endangered.
+---
+
+**From Liberty-Node-02  (!0408a160):** Who should I call fire department or electric company?
+
+**To Liberty-Node-02 :** Call the fire department. Electrical fires are a primary concern.
+---
+

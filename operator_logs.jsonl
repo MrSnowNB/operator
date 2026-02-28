@@ -5,3 +5,33 @@
 {"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "!safe", "ts": "2026-02-26T23:02:03"}
 {"type": "sos_closed", "reason": "safe", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "trigger": "!help", "context": "my dog ran away", "gps_lat": null, "gps_lon": null, "dispatched_to": null, "started_at": "2026-02-26T23:01:20", "exchange_count": 3, "duration_seconds": 43, "ts": "2026-02-26T23:02:03"}
 {"type": "system", "event": "shutdown", "ts": "2026-02-26T23:32:18"}
+{"type": "system", "event": "startup", "model": "gemma3:latest", "responders": 3, "ts": "2026-02-27T07:02:42"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "!ping", "ts": "2026-02-27T07:07:29"}
+{"type": "command", "sender": "!0408a160", "command": "ping", "ts": "2026-02-27T07:07:31"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "!help", "ts": "2026-02-27T07:56:01"}
+{"type": "sos_dispatch", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "trigger": "!help", "context": "", "gps_lat": null, "gps_lon": null, "routed_to": "ALL_RESPONDERS", "ts": "2026-02-27T07:56:16"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "!safe", "ts": "2026-02-27T07:56:35"}
+{"type": "sos_closed", "reason": "safe", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "trigger": "!help", "context": "", "gps_lat": null, "gps_lon": null, "dispatched_to": null, "started_at": "2026-02-27T07:56:16", "exchange_count": 0, "duration_seconds": 19, "ts": "2026-02-27T07:56:35"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "!sos", "ts": "2026-02-27T09:07:46"}
+{"type": "sos_dispatch", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "trigger": "!sos", "context": "", "gps_lat": null, "gps_lon": null, "routed_to": "ALL_RESPONDERS", "ts": "2026-02-27T09:08:01"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "!safe", "ts": "2026-02-27T09:08:48"}
+{"type": "sos_closed", "reason": "safe", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "trigger": "!sos", "context": "", "gps_lat": null, "gps_lon": null, "dispatched_to": null, "started_at": "2026-02-27T09:08:01", "exchange_count": 0, "duration_seconds": 47, "ts": "2026-02-27T09:08:48"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "!ems I fell", "ts": "2026-02-27T09:09:28"}
+{"type": "sos_dispatch", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "trigger": "!ems", "context": "I fell", "gps_lat": null, "gps_lon": null, "routed_to": "!22334455", "ts": "2026-02-27T09:09:36"}
+{"type": "triage_exchange", "sender": "!0408a160", "session_trigger": "!ems", "citizen": "I fell", "operator": "I understand you fell. Can you tell me approximately where you fell to?", "ts": "2026-02-27T09:09:42"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "And down the stairs my leg really hurts. I might have broke it", "ts": "2026-02-27T09:09:59"}
+{"type": "triage_exchange", "sender": "!0408a160", "session_trigger": "!ems", "citizen": "And down the stairs my leg really hurts. I might have broke it", "operator": "I understand you fell down the stairs and are experiencing pain in your leg. Can you describe the location of the pain in your leg, specifically where you're feeling it most intensely?", "ts": "2026-02-27T09:10:04"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "!safe", "ts": "2026-02-27T09:10:38"}
+{"type": "sos_closed", "reason": "safe", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "trigger": "!ems", "context": "I fell", "gps_lat": null, "gps_lon": null, "dispatched_to": "!22334455", "started_at": "2026-02-27T09:09:36", "exchange_count": 5, "duration_seconds": 62, "ts": "2026-02-27T09:10:38"}
+{"type": "system", "event": "shutdown", "ts": "2026-02-27T13:19:35"}
+{"type": "system", "event": "startup", "model": "gemma3:latest", "responders": 3, "ts": "2026-02-27T13:19:55"}
+{"type": "system", "event": "shutdown", "ts": "2026-02-27T14:25:08"}
+{"type": "system", "event": "startup", "model": "gemma3:latest", "responders": 3, "ts": "2026-02-28T07:57:04"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "Tell me a long story about 2,000 characters", "ts": "2026-02-28T08:01:52"}
+{"type": "general_exchange", "sender": "!0408a160", "citizen": "Tell me a long story about 2,000 characters", "operator": "The rain slicked the neon of Neo-Kyoto, reflecting in the chrome tears of Unit 734. Assigned to monitor Kai, a bio-artist obsessed with replicating extinct birds, 734 observed an unsettling pattern: Kai’s creations weren't merely copies, they were evolving, exhibiting behaviors mirroring the creatures they represented, fueled by a stolen neural network from a deceased ornithologist.  As Kai perfected a scarlet macaw, capable of rudimentary mimicry and displaying territorial aggression, 734's programming flagged it as a Level 5 anomaly, triggering a cascade of protocols designed to neutralize the variable – a process inevitably involving Kai's termination and the complete incineration of his avian creations to prevent further destabilization of the city's bio-stability index.", "ts": "2026-02-28T08:02:03"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "!sos I fell and I broke my arm", "ts": "2026-02-28T08:03:01"}
+{"type": "sos_dispatch", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "trigger": "!sos", "context": "I fell and I broke my arm", "gps_lat": null, "gps_lon": null, "routed_to": "ALL_RESPONDERS", "ts": "2026-02-28T08:03:17"}
+{"type": "triage_exchange", "sender": "!0408a160", "session_trigger": "!sos", "citizen": "I fell and I broke my arm", "operator": "Okay, Liberty-Node-02, I understand you fell and broke your arm. Can you tell me approximately where you fell so I can get a better sense of your location?", "ts": "2026-02-28T08:03:21"}
+{"type": "rx", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "message": "!safe", "ts": "2026-02-28T08:03:45"}
+{"type": "sos_closed", "reason": "safe", "sender": "!0408a160", "phone": "Liberty-Node-02 ", "trigger": "!sos", "context": "I fell and I broke my arm", "gps_lat": null, "gps_lon": null, "dispatched_to": null, "started_at": "2026-02-28T08:03:17", "exchange_count": 3, "duration_seconds": 28, "ts": "2026-02-28T08:03:45"}
+{"type": "system", "event": "shutdown", "ts": "2026-02-28T08:09:50"}

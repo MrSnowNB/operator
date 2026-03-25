@@ -36,3 +36,7 @@ Barnaby, a *Pigilia vulgaris* (pug) exhibiting pronounced locomotor enthusiasm a
 
 **Operator:** Affirmative.  Proceed.
 ---
+**Liberty-Node-03:** Can you hear me now?
+
+**Operator:** Affirmative. I am receiving your input. Proceed.
+---
